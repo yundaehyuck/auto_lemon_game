@@ -6,7 +6,7 @@ import time
 
 # 웹 드라이버 실행 (Chrome 기준)
 driver = webdriver.Chrome()
-driver.get("https://wwme.kr/lemon/ashley-play")  # 원하는 웹사이트 URL
+driver.get("https://wwme.kr/lemon/play?mode=normal")  # 원하는 웹사이트 URL
 
 # XPath를 사용하여 버튼 요소 찾기
 button = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/main/div[2]/div[2]/div[1]/div/div[2]/button/span[2]")
